@@ -7,9 +7,9 @@ config:
     full: true
     background: tint-plate
     hero:
-      name: Theme Plume
-      tagline: VuePress Next Theme
-      text: 欢迎来到踏浪的文档&博客
+      name: JikeWang Blog
+      tagline: 集思广益，分享知识，共同成长
+      text: 欢迎来到踏浪的文档和博客屋
       actions:
         -
           theme: brand
