@@ -14,6 +14,7 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
+  // 站点根路径，默认是 `/`。如果你的文档将部署在一个子路径下，你需要更改此配置项以匹配你的站点根路径
   base: '/blog/',
   lang: 'zh-CN',
   locales: {

@@ -1,42 +1,20 @@
-# my-jike-blog
+# 博客项目
 
-The Site is generated using [vuepress](https://vuepress.vuejs.org/) and [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume)
+## 项目简介
+一个基于[技术栈名称]构建的个人博客系统，支持文章发布、分类管理、评论互动等功能。
 
-## Install
+## 功能特性
+- 文章管理：创建、编辑、发布和删除博客文章
+- 分类标签：支持文章分类和标签管理
+- 评论系统：用户评论和回复功能
+- 搜索功能：支持按标题/内容搜索文章
+- [可根据实际功能添加更多]
 
-```sh
-pnpm i
-```
+## 技术栈
+- 前端：[如React/Vue等]
+- 后端：[如Node.js/Django等]
+- 数据库：[如MongoDB/MySQL等]
+- 部署：[如Docker/Vercel等]
 
-## Usage
-
-```sh
-# start dev server
-pnpm docs:dev
-# build for production
-pnpm docs:build
-# preview production build in local
-pnpm docs:preview
-# update vuepress and theme
-pnpm vp-update
-```
-
-## Deploy to GitHub Pages
-
-The plume theme has been created with GitHub Actions: `.github/workflows/docs-deploy.yml`. You also need to make the following settings in the GitHub repository:
-
-- [ ] `settings > Actions > General`, Scroll to the bottom of the page, under `Workflow permissions`, check `Read and write permissions`, and click the save button.
-
-- [ ] `settings > Pages`, In `Build and deployment`, select `Deploy from a branch` for `Source`, choose `gh-pages` for `Branch`, and click the save button.
-  (The `gh-pages` branch may not exist upon first creation. You can complete the above setup first, push the code to the main branch, wait for `github actions` to finish, and then proceed with the setup.)
-
-- [ ] Modify the `base` option in `docs/.vuepress/config.ts`:
-  - If you are planning to deploy to `https://<USERNAME>.github.io/`, you can skip this step as `base` defaults to `"/"`.
-  - If you are planning to deploy to `https://<USERNAME>.github.io/<REPO>/`, meaning your repository URL is `https://github.com/<USERNAME>/<REPO>`, set `base` to `"/<REPO>/"`.
-
-To customize a domain name, please refer to [Github Pages](https://docs.github.com/zh/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages)
-
-## Documents
-
-- [vuepress](https://vuepress.vuejs.org/)
-- [vuepress-theme-plume](https://theme-plume.vuejs.press/)
+## 安装指南
+1. 克隆仓库
