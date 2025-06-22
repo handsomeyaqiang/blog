@@ -23,11 +23,6 @@ export default defineUserConfig({
       lang: 'zh-CN',
       description: 'this my jike blog',
     },
-    '/en/': {
-      title: 'My Jike Blog',
-      lang: 'en-US',
-      description: 'this my jike blog',
-    },
   },
 
   head: [
